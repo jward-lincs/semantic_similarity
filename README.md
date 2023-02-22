@@ -1,4 +1,5 @@
-# semantic_similarity
+# Semantic Similarity (NLP)
+## This git contains compulsry task 1 and 2
 
 
 # Compulsory Task 1
@@ -26,3 +27,16 @@ some of the the similarities within one list were higher than â€˜en_core_web_smâ
 
 However, when comparing insurance claims and recipes, because 'en_core_web_md' wasn't looking
 at the nuances and narrative of the text, if found much lower similarities possibly due to a lack of shared words groups.
+
+# Compulsory Task 2
+## watch_next.py
+This program uses NLP to make a movie recommendation.
+
+TOC
+
+## Installation
+Make sure watch_next and movies.txt are in the same folder as each other.
+
+## Usage
+Run the program! It will use the text from the synompsis of 'Planet Hulk' in the program and work out the similarites to it in the movies.txt file. It then finds the most similar and prints out a recommendation to watch it.
+
