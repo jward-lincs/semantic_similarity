@@ -1,5 +1,15 @@
 # Semantic Similarity (NLP)
-## This git contains compulsry task 1 and 2
+## This git contains compulsory task 1 and 2
+
+- [Semantic Similarity (NLP)](#semantic-similarity--nlp-)
+  * [This git contains compulsry task 1 and 2](#this-git-contains-compulsry-task-1-and-2)
+- [Compulsory Task 1](#compulsory-task-1)
+  * [Notes of interest regarding cat, money and banana similarities:](#notes-of-interest-regarding-cat--money-and-banana-similarities-)
+  * [Notes on the difference between 'en_core_web_md'. ‘en_core_web_sm’:](#notes-on-the-difference-between--en-core-web-md---en-core-web-sm--)
+- [Compulsory Task 2](#compulsory-task-2)
+  * [watch_next.py](#watch-nextpy)
+  * [Installation](#installation)
+  * [Usage](#usage)
 
 
 # Compulsory Task 1
@@ -19,7 +29,6 @@ I was surprise at the relatively low numbers for mum and child (0.125) and even 
 
 
 
-
 Notes on the difference between 'en_core_web_md'. ‘en_core_web_sm’:
 -------------------------------------------------------------------
 Because  ‘en_core_web_sm’ was looking specifically at words and not how they are used,
@@ -32,11 +41,9 @@ at the nuances and narrative of the text, if found much lower similarities possi
 ## watch_next.py
 This program uses NLP to make a movie recommendation.
 
-TOC
-
 ## Installation
-Make sure watch_next and movies.txt are in the same folder as each other.
+Make sure that watch_next.py and movies.txt are in the same folder as each other.
 
 ## Usage
-Run the program! It will use the text from the synompsis of 'Planet Hulk' in the program and work out the similarites to it in the movies.txt file. It then finds the most similar and prints out a recommendation to watch it.
+Run the program! It will use the text from the synopsis of 'Planet Hulk' in the program and work out the similarites to it in the movies.txt file. It then finds the most similar and prints out a recommendation to watch it.
 
